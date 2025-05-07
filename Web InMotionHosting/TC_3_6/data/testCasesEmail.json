@@ -1,0 +1,9 @@
+[
+    { "email": "le82318@gmail.com", "expectedValid": true },
+    { "email": "le82318@fakeemail.com", "expectedValid": false },
+    { "email": ",./;'[]", "expectedValid": false },
+    { "email": "        ", "expectedValid": false },
+    { "email": "", "expectedValid": false },
+    { "email": "012291", "expectedValid": false },
+    { "email": "le82318@outlook.com.vn", "expectedValid": true }
+]
